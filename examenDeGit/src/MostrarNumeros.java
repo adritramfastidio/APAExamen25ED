@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class MostrarNumeros {
     public static void main(String[] args) {
@@ -25,13 +25,12 @@ public class MostrarNumeros {
         }
     }
 
-    public static double raizCuadrada(double a) {
+    public static double raizCuadrada(double a){
         if (a >= 0) {
             return Math.sqrt(a);
         } else {
             throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
         }
-    }
     public static double sumar(double a, double b) {
         return a + b;
     }
