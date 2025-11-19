@@ -31,5 +31,14 @@ public class MostrarNumeros {
         } else {
             throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
         }
+    public static double sumar(double a, double b) {
+        return a + b;
+    }
+    public static double multiplicar(double a, double b) {
+        return a * b;
+    }
+
+    public static double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
     }
 }
